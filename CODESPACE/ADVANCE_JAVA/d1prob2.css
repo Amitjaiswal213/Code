@@ -1,0 +1,8 @@
+body{
+    background-image: url(IMG_20210723_162811_625.jpg);
+    background-size: 150px 150px;
+    height: 1500px;
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    background-attachment: fixed;
+}

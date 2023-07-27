@@ -1,0 +1,19 @@
+table{
+    
+    width: auto;
+    margin-left: 35%;
+    margin-top: 5%;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+}
+.btn{
+    margin-left: 30%;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(111, 132, 95);
+    
+}

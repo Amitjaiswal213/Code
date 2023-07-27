@@ -1,0 +1,14 @@
+table{
+    
+    width: auto;
+    margin-left: 35%;
+    margin-top: 5%;
+    padding: 30px;
+    border-radius: 10px;
+}
+.btn{
+    margin-left: 20%;
+}
+a{
+    text-decoration: none;
+}

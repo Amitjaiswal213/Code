@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <script>
+            function func(){
+                var a = parseInt(document.getElementById("t1").value);
+                var b = parseInt(document.getElementById("t2").value);
+                var c = parseInt(document.getElementById("t3").value);
+                var d = parseInt(document.getElementById("t4").value);
+
+                var arr=[a,b,c,d];
+                console.log(arr)
+                var max =0;
+                for(var i=0;i<arr.length;i++){
+                    if(arr[i]>max)
+                    {
+                        max=arr[i];
+                    }
+                }
+                document.f1.t5.value=max;
+            }
+        </script>
+    </head>
+    <body>
+        <form name ="f1">
+            <input type = "text" id ="t1">
+            <input type = "text" id ="t2">
+            <input type = "text" id ="t3">
+            <input type = "text" id ="t4">
+            <input type = "text" name ="t5">
+            <input type = "button" onclick = "func()" value = "submit">
+        </form>
+    </body>
+</html>
